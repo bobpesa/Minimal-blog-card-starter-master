@@ -24,15 +24,16 @@
 
     .container {
         font-family: 'Sora', sans-serif;
-        width: 400px;
-        margin: 100px auto;
+        width: 370px;
+        margin: 80px auto;
+        position: relative;
         align-items: center;
         background-color: #ffffff;
-        /* padding: 20px 180px; */
         display: grid;
         align-items: center;
         justify-content: center;
         border-radius: 10px;
+        overflow: hidden;
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 
     }
@@ -41,6 +42,8 @@
         display: grid;
         grid-auto-flow: row;
         margin: 20px px;
+        position: relative;
+        padding: 30px 30px;
     }
 
     img {
@@ -63,12 +66,12 @@
     p,
     span {
         padding-top: 10px;
-        font-family: 'Sora', sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     h1,
     p {
-        color: #20293A;
+        color: #394150;
     }
 
     h1 {
@@ -84,6 +87,9 @@
 
     .name {
         font-size: 12px;
-        border-top: 1px solid #20293A;
+        border-top: 1px solid #394150;
         border-width: 100%;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        color: #394150;
     }
